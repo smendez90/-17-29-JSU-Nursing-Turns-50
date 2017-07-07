@@ -445,7 +445,7 @@ select {
   width: 100%;
   top: 0;
   left: 0;
-  height: 500px;
+  height: 570px;
   background: #253340 url('../images/background/bg-header-small-1.jpg') no-repeat 50% top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -3161,6 +3161,7 @@ select {
   }
   .header.navbar-fixed-top {
     position: relative;
+	background: white;
   }
   .blog-slider {
     margin-top: 0;
@@ -3242,7 +3243,7 @@ select {
     display: none;
   }
   .features-video {
-    padding-top: 90px;
+    padding-top: 42px;
   }
   .pricing {
     padding-top: 90px;
