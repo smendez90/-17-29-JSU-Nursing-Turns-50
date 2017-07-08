@@ -210,11 +210,11 @@ select {
 }
 .header h1.logo a {
   color: #fff;
-  padding: 15px 30px;
+  padding: 0px 13px;
   display: inline-block;
   text-align: center;
   line-height: 1.4;
-  max-width: 155px;
+  max-width: 195px;
   background: #cc0000;
   -webkit-border-top-right-radius: 0;
   -webkit-border-bottom-right-radius: 4px;
@@ -3288,9 +3288,7 @@ select {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     color: #ec6952;
-    background: #fff;
-    padding-left: 0;
-    padding-top: 25px;
+    background: #cc0000;
   }
   .header.scrolled .main-nav .nav .nav-item a {
     color: #666;
