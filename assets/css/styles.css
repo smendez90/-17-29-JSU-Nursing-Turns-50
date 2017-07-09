@@ -2070,11 +2070,11 @@ select {
   z-index: 10;
 }
 .story-section .title {
-  font-size: 36px;
+  font-size: 55px;
   margin-bottom: 60px;
-  margin-top: 0;
+  margin-top: 80px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 500;
 }
 .story-section .story-container-inner {
   max-width: 900px;
