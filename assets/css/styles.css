@@ -2916,6 +2916,10 @@ select {
     margin: inherit;
     text-align: center;
   }
+	.story-section .title {
+	margin-top: 20px;
+		background: yellow;
+	}
   .header h1.logo a {
     margin: 0 auto;
   }
@@ -3153,15 +3157,13 @@ select {
   .header {
     height: inherit;
   }
-	.story-section .title {
-		margin-top: 20px;
-	}
   .header.scrolled {
     height: auto;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
+	
   .header.scrolled .main-nav .nav .nav-item a {
     color: #fff;
     -webkit-opacity: 1;
@@ -3273,6 +3275,10 @@ select {
   .contact-section {
     padding-top: 45px;
   }
+	.story-section .title {
+	margin-top: 50px;
+		background: red;
+	}
 	
 }
 /* Medium devices (desktops, 992px and up) */
@@ -3295,6 +3301,10 @@ select {
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
+	.story-section .title {
+	margin-top: 90px;
+		background: blue;
+	}
   .header.scrolled h1.logo a {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
