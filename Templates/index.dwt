@@ -68,8 +68,7 @@
       
     <div class="headline-bg">
     </div><!--//headline-bg-->         
- <!-- TemplateBeginEditable name="content" -->
-    <!-- ******Video Section****** --> 
+ <!-- TemplateBeginEditable name="content" --> Section****** --> 
     <section class="features-video section section-on-bg">
         <div class="container text-center">          
             <div class="video-container">
@@ -81,7 +80,7 @@
      
         <!-- ******Why Section****** -->
         <section id="why" class="section why">
-            <div class="container">
+            <div class="story-container-inner">
                 <h2 class="title text-center">Empowering Exemplary Nurses to Care <br> for Anyone, Anytime, Anywhere</h2>
                 <p class="intro text-center">Welcome to Jacksonville State University Department of Nursing’s 50th Anniversary website! In 2017, JSU Nursing celebrates fifty years of nursing excellence. For the past 50 years, JSU Nursing has provided world-class nursing education to individuals wishing to enter the nursing profession or expand their current nursing career.  On this site, you can learn more about the rich history of JSU Nursing, our 50th anniversary celebration, and how you can be part of JSU Nursing’s global impact on healthcare. Join us as we celebrate and explore JSU Nursing by clicking on the sections below!</p>
                 <div class="row item">
