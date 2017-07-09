@@ -3153,6 +3153,9 @@ select {
   .header {
     height: inherit;
   }
+	.story-section .title {
+		margin-top: 20px;
+	}
   .header.scrolled {
     height: auto;
     -webkit-box-shadow: none;
