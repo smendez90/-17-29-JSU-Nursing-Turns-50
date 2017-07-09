@@ -3137,6 +3137,12 @@ select {
 		height: 400px;
 	}
 }
+/* Small devices (small phones 375px) */
+@media (max-width: 375px) {
+	.headline-bg {
+		height: 350px;
+	}
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .config-wrapper {
