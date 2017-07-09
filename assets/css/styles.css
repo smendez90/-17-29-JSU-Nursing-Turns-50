@@ -2918,7 +2918,6 @@ select {
   }
 	.story-section .title {
 	margin-top: 20px;
-		background: yellow;
 	}
   .header h1.logo a {
     margin: 0 auto;
@@ -3277,7 +3276,6 @@ select {
   }
 	.story-section .title {
 	margin-top: 50px;
-		background: red;
 	}
 	
 }
@@ -3303,7 +3301,6 @@ select {
   }
 	.story-section .title {
 	margin-top: 90px;
-		background: blue;
 	}
   .header.scrolled h1.logo a {
     -webkit-border-radius: 0;
