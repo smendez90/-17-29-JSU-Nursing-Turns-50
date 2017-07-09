@@ -3275,7 +3275,7 @@ select {
     padding-top: 45px;
   }
 	.story-section .title {
-	margin-top: 50px;
+	margin-top: 0px;
 	}
 	
 }
@@ -3300,7 +3300,7 @@ select {
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
 	.story-section .title {
-	margin-top: 90px;
+	margin-top: 25px;
 	}
   .header.scrolled h1.logo a {
     -webkit-border-radius: 0;
