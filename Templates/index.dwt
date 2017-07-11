@@ -30,8 +30,9 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head> 
-
-<body class="home-page">   
+<!-- TemplateBeginEditable name="body" -->
+<body class="home-page">
+<!-- TemplateEndEditable -->
     <!-- ******HEADER****** --> 
     <header id="header" class="header navbar-fixed-top">  
         <div class="container">       
@@ -59,10 +60,12 @@
             </nav><!--//main-nav-->                     
         </div><!--//container-->
     </header><!--//header-->
-      
+      <!-- TemplateBeginEditable name="headline-bg" -->
+
     <div class="headline-bg">
-    </div><!--//headline-bg-->         
- <!-- TemplateBeginEditable name="content" --> Section****** --> 
+    </div><!--//headline-bg-->
+    <!-- TemplateEndEditable name="headline-bg" -->         
+ <!-- TemplateBeginEditable name="content" -->
     <section class="features-video section section-on-bg">
         <div class="container text-center">          
             <div class="video-container">
