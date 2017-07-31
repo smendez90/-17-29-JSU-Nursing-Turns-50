@@ -1791,18 +1791,6 @@ select {
   background-size: cover;
   color: #fff;
 }
-.blog-entry-wrapper2 .blog-entry2 .blog-entry-heading2 {
-  margin-bottom: 60px;
-  position: relative;
-  height: 500px;
-  background: #253340 url('../images/blog/story-1.jpg') no-repeat 50% top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
-}
-
 .blog-entry-wrapper .blog-entry .blog-entry-heading:after {
   content: "";
   display: block;
