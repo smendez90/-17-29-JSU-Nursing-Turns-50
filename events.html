@@ -28,6 +28,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 <!-- InstanceBeginEditable name="head" -->
+<script>
+/**
+* Function that tracks a click on an outbound link in Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label. Setting the transport method to 'beacon' lets the hit be sent
+* using 'navigator.sendBeacon' in browser that support it.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
 <!-- InstanceEndEditable -->
 </head> 
 <!-- InstanceBeginEditable name="body" -->
@@ -92,9 +106,10 @@
                             <div class="desc text-left">
                                 <p>On September 16th, JSU Nursing will be hosting our 50th Anniversary Gala. What better way to celebrate than with an evening of dining and entertainment?</p> 
                                 <p>It will be an opportunity to celebrate together this important milestone. We hope that everyone can join us.</p>
-                            
+                            	
+								<p>Black tie optional. Sunday or "Church" attire.</p>
                                 
-                                <a class="btn btn-cta btn-cta-secondary" href="https://app.mobilecause.com/f/1dxu/n" target="new">Buy Ticket</a>
+								<p><a class="btn btn-cta btn-cta-secondary" href="https://app.mobilecause.com/f/1dxu/n" target="new" onclick="trackOutboundLink('https://app.mobilecause.com/f/1dxu/n'); return false;">Buy Ticket</a></p>
                                 
                                 <div class="box">
                                     <p>You or your organization wants to be a Gala Sponsor? <a href="sponsor.html">Learn more</a></p>
@@ -110,7 +125,7 @@
 								<p>On October 14th, the JSU Gamecocks will host Eastern Kentucky at Burgess-Snow field. It will also be JSU Nursing 50th Anniversary Recognition Day at the game. Mark your calendar and join us at the game. </p>
                                	<p>Tickets will be available for purchase on August 1st</p> 
                                 
-                                <a class="btn btn-cta btn-cta-secondary" href="http://www.jsugamecocksports.com/sports/2008/8/18/JSUTIXX0818.aspx?" target="new" title="link to purchas game tickets">Buy Ticket</a>
+                                <a class="btn btn-cta btn-cta-secondary" href="http://www.jsugamecocksports.com/sports/2008/8/18/JSUTIXX0818.aspx?" target="new" title="link to purchas game tickets" >Buy Ticket</a>
                                  
                             </div><!--//desc-->
                         </div><!--//tab-pane-->
