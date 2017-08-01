@@ -728,11 +728,13 @@ select {
   margin-bottom: 60px;
 }
 .testimonials .item .profile {
-  position: absolute;
-  left: 0;
+  position: static;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;;
 }
 .testimonials .item .content {
-  padding-left: 210px;
+  padding-left: 60px;
 }
 .testimonials .item blockquote {
   font-size: 20px;
@@ -3003,7 +3005,7 @@ select {
     margin-bottom: 30px;
   }
   .testimonials .item .content {
-    padding-left: 60px;
+    padding-left: 25px;
   }
   .testimonials .item blockquote {
     font-size: 18px;
